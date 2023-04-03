@@ -172,6 +172,7 @@ label{
 /* Pelicula */
 .vista-pelis{
     text-align: center;
+    min-height: 40vw;
 }
 .contenido-pelicula{
     display: flex;
@@ -247,10 +248,13 @@ label{
     padding: 20px;
 }
 .img-terror{
-    margin-bottom: 10px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 98%;
 }
 @media(min-width:1200px){
     .img-terror{
         height: 600px;
+        margin-bottom: 50px;
     }
 }
