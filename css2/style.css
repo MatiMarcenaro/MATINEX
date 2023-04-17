@@ -1,0 +1,260 @@
+.header{
+    background-image: url(../img/fondo-header.jpg);
+
+}
+
+.a-none{
+    text-decoration: none;
+}
+
+.img_logo{
+    width: 200px;
+}
+.nav-link{
+    color: black;
+}
+.img_2{
+    width: 30px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: blue;
+    padding: 5px;
+    border-radius: 10%;
+}
+.login-text{
+    text-decoration: none;
+    color: white;
+    margin: 0;
+}
+.main{
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.main h1{
+    font-size: 40px;
+}
+.main p{
+    font-size: 20px;
+}
+@media (min-width: 980px) {
+    .main p{
+        font-size: 18px;
+    }
+    .main h1{
+        font-size: 30px;
+    }
+    .flex{
+        display: flex;
+        justify-content: center;
+    }
+    .pelicula_2{
+        width: 300px;
+        margin: 10px;
+    }
+    .imagen_pelicula{
+        width: 100%;
+        height: 500px;
+    }
+}
+@media (min-width: 1600px) {
+    .flex{
+        display: flex;
+        justify-content: center;
+    }
+    .pelicula_2{
+        width: 500px;
+        margin: 10px;
+    }
+    .imagen_pelicula{
+        width: 100%;
+        height: 500px;
+    }
+}
+.pelis h2{
+    text-align: center;
+}
+.imagen_pelicula{
+    width: 100%;
+    height: 400px;
+}
+.contenedor-center{
+    width: 90%;
+    margin: 0 auto;
+}
+.pelicula_2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+/* Footer */
+.footer img{
+    width: 50px;
+    margin-right: 10px;
+}
+.footer{
+    text-align: end;
+}
+/* Login */
+.form-login{
+    text-align: center;
+
+}
+.form-group{
+    margin: 10px;
+    display: block;
+}
+.btn-principal{
+    background-color: rgb(45, 251, 251);
+}
+.btn-principal:hover{
+    background-color: aquamarine;
+}
+.botones{
+    margin-bottom: 10px;
+}
+/* Planes */
+.img-planes{
+    width: 100%;
+
+}
+.tipo-planes{
+    width: 300px;
+    text-align: center;
+    border: 2px solid black;
+}
+.flex{
+    gap: 15px;
+}
+.planes h1{
+    text-align: center;
+    margin: 20px 0;
+} 
+/* Perfil */
+.titulo{
+    text-align: center;
+}
+.img-perfil{
+    width: 300px;
+    margin-bottom: 10px;
+}
+.con-perfil{
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+    border-bottom: 1px solid black;
+}
+.form-datos-pagos{
+    text-align: center;
+}
+.perfil-opciones{
+    padding: 20px;
+}
+.btn-opciones{
+    background-color: blueviolet; 
+    color: white;
+}
+.btn-opciones:hover{
+    background-color: rgb(140, 98, 179);
+}
+label{
+    width: 90px;
+    margin-bottom: 10px;
+}
+/* Pelicula */
+.vista-pelis{
+    text-align: center;
+    min-height: 40vw;
+}
+.contenido-pelicula{
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+    gap: 10px;
+}
+.cont-pelis{
+    width: 45%;
+     
+}
+/* Pelis Accion */
+.pelis-accion{
+    display: block;
+    padding:20px;
+}
+.titulo-accion{
+    text-align: center;
+}
+
+.img-accion{
+    width: 100%;
+    height: 100%;   
+}
+.img-1{
+    grid-area: uno;
+}
+.img-2{
+    grid-area: dos;
+}
+.img-3{
+    grid-area: tres;
+}
+.img-4{
+    grid-area: cuatro;
+}
+.img-5{
+    grid-area: seis;
+}
+.img-6{
+    grid-area: cinco;
+}
+@media (min-width: 480px) {
+    .pelis-accion{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        grid-template-areas: 
+        "dos    cuatro"
+        "uno    tres"
+        "seis   tres"
+        "cinco  cinco"
+    }
+}
+@media (min-width: 1200px) {
+    .pelis-accion{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 15px;
+        grid-template-areas: 
+        "uno uno dos"
+        "tres cuatro  cuatro"
+        "tres cuatro cuatro"
+        "tres cinco seis"
+    }
+}
+/* Pelicula Terror */
+.titulo-terror{
+    text-align: center;
+}
+.pelis-terror{
+    padding: 20px;
+}
+.img-terror{
+    margin-bottom: 50px;
+    width: 100%;
+    height: 98%;
+}
+@media(min-width:1200px){
+    .img-terror{
+        height: 600px;
+        margin-bottom: 50px;
+    }
+}

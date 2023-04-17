@@ -1,0 +1,22 @@
+.planes{
+    h1{
+        text-align: center;
+        margin: 20px 0;
+    }
+    .flex{
+        @media (min-width:480px){
+            @include flex(row,center,center,25px);
+        }
+        @include flex(column,center,center,25px);
+        .tipo-planes{
+            width: 300px;
+            min-height: 400px;
+            text-align: center;
+            border: 2px solid black;
+            .img-planes{
+                width: 100%;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

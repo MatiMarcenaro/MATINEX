@@ -1,0 +1,5 @@
+node_modules
+node_*.vsc
+node_*.log
+node_*.ia
+node_*.psd

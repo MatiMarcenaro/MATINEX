@@ -1,0 +1,26 @@
+.vista-pelis{
+    text-align: center;
+    min-height: 40vw;
+    .contenido-pelicula{
+        display: flex;
+        text-align: center;
+        padding: 20px;
+        justify-content: center;
+        gap: 10px;
+        @media (max-width:800px){
+            display: block;
+        }
+        .cont-pelis{
+            width: 45%;
+            @media(max-width:800px){
+                width: 100%;
+            }
+        }
+    }
+    .btn-principal{
+        background-color: rgb(45, 251, 251);
+        &:hover{
+            background-color: aquamarine;
+        }
+    }
+}

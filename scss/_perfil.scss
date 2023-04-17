@@ -1,0 +1,41 @@
+.titulo{
+    text-align: center;
+}
+.con-perfil{
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+    border-bottom: 1px solid black;
+    @media(max-width:600px){
+        @include flex(column,center,center,25px);
+    }
+    .img-perfil{
+        width: 300px;
+        margin-bottom: 10px;
+        @media(max-width:600px){
+            text-align: center;
+            width: 100%;
+        }
+    }
+}
+.form-datos-pagos{
+    text-align: center;
+    .btn-principal{
+        background-color: rgb(45, 251, 251);
+        &:hover{
+            background-color: aquamarine;
+        }
+    }
+}
+.perfil-opciones{
+    padding: 20px;
+    .btn-opciones{
+        background-color: blueviolet; 
+        color: white;
+        margin-bottom: 10px;
+        &:hover{
+            background-color: rgb(140, 98, 179);
+        }
+    }
+}
+
