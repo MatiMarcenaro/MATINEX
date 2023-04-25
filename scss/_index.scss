@@ -1,5 +1,5 @@
 .pelis{
-    h2{
+    .tit{
         text-align: center;
     }
     .flex{
@@ -10,7 +10,7 @@
             @include flex(row,center,center,25px);
         }
         .pelicula_2{
-            text-align: center;
+            @extend .tit;
             background-color: black;
             color: white;
             margin-bottom: 20px;
